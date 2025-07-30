@@ -15,6 +15,11 @@
     "wdth" 100;
 }
 
+button:hover{
+    background:linear-gradient(to right, rgb(216, 219, 1), rgb(240, 8, 74));
+    color: aqua;
+}
+
 nav ul a{
     text-decoration: none;
 }
@@ -78,6 +83,10 @@ nav{
     nav{
         text-align: center;
         margin: 13px 16px;
+    }
+
+    nav ul{
+        padding: 0;
     }
 
     .banner{
